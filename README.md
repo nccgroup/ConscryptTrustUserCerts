@@ -1,6 +1,6 @@
 # Magisk - Conscrypt Trust User Certs
 
-This module makes all installed user certificates part of the APEX module com.android.conscrypt certificate store in Android 14, so that they will automatically be used when building the trust chain. This module makes it unnecessary to add the network_security_config property to an application's manifest.
+This module makes all installed user certificates part of the APEX module com.android.conscrypt certificate store in Android 14, so that they will automatically be used when building the trust chain.
 
 ### Installation
 1. Install Magisk
