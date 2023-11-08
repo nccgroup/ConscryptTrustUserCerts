@@ -1,0 +1,7 @@
+id=nccgroup-conscrypt-trustusercerts
+name=Conscrypt - Trust User Certificates
+version=v0.1
+versionCode=1
+author=Xavier Cervilla (nccgroup.com)
+description=This module adds all installed user certificates to the APEX Conscrypt trust store in Android 14
+minMagisk=20400
