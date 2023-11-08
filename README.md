@@ -1,10 +1,10 @@
-# Magisk Android 14 Trust User Certs
+# Magisk - Conscrypt Trust User Certs
 
 This module makes all installed user certificates part of the APEX module com.android.conscrypt certificate store in Android 14, so that they will automatically be used when building the trust chain. This module makes it unnecessary to add the network_security_config property to an application's manifest.
 
 ### Installation
 1. Install Magisk
-2. Zip files `zip -r Android14TrustUserCerts.zip ./*`
+2. Zip files `zip -r ConscryptTrustUserCerts.zip ./*` or download the ZIP file from releases
 3. Install in Magisk
 4. Install client certificates through [normal flow](https://support.portswigger.net/customer/portal/articles/1841102-installing-burp-s-ca-certificate-in-an-android-device)
 5. Restart your device. Certificate copying happens during boot.
